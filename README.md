@@ -1,39 +1,52 @@
 # 🌦️ Smart Weather Monitoring System
 
-## 📌 Description
-This project is a Smart Weather Monitoring System developed using Arduino and sensors to measure environmental parameters such as temperature and humidity in real time.
+An IoT-based embedded system using Arduino to monitor real-time weather parameters such as temperature, humidity, and other environmental conditions.
 
-The system collects data from sensors, processes it using the Arduino microcontroller, and displays the output for monitoring purposes. This project demonstrates the integration of hardware and software for real-time data acquisition.
+---
 
-## 🛠️ Components Used
-- Arduino
-- Temperature Sensor (DHT11/DHT22)
-- Humidity Sensor
-- Rain Sensor
-- Jumper Wires
-- LCD 
-- Breadboard
+## 📌 About the Project
 
-## ⚙️ Features
-- Real-time temperature and humidity monitoring
-- Accurate data collection using sensors
-- Simple and efficient system design
-- Useful for environmental monitoring
+This project uses sensors interfaced with an Arduino microcontroller to continuously monitor weather conditions. It demonstrates practical IoT implementation for environmental monitoring, useful in agriculture, smart homes, and weather stations.
 
-## 💡 Technologies Used
-- Arduino Programming
-- Embedded Systems
-- Sensors Integration
-- Basic IoT Concepts
+---
 
-## 📷 Output
+## ✨ Features
+
+- Real-time temperature & humidity monitoring
+- Arduino-based sensor data acquisition
+- Display output (LCD/Serial Monitor) for live readings
+- Expandable design to add more sensors (rain, light, air quality, etc.)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Hardware:** Arduino, Temperature & Humidity Sensor (DHT11/DHT22), LCD Display (optional)
+- **Firmware:** Embedded C
+- **Concepts:** GPIO, Timers & Interrupts, Sensor Interfacing
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Keerthana1207-coder/smart-weather-monitoring.git
+   ```
+2. Open the `.ino` file in **Arduino IDE**
+3. Install required libraries (e.g., DHT sensor library) via Library Manager
+4. Connect your Arduino board and select the correct Port & Board type
+5. Upload the code to the board
+6. View live readings on the Serial Monitor or connected LCD
+
+---
+
+## 📸 Demo / Circuit Photos
+
 <img width="1600" height="721" alt="output-image" src="https://github.com/user-attachments/assets/4c840236-eb34-4d1d-9c54-1a4fa7f2c71d" />
 
-## 🚀 Future Improvements
-- Cloud data storage
-- Mobile app integration
-- Live data monitoring using IoT platforms
-
-
 ## 👩‍💻 Author
-KEERTHANA 
+
+**Keerthana P**
+- LinkedIn: [linkedin.com/in/keerthana-p-ece](https://www.linkedin.com/in/keerthana-p-ece)
+- Portfolio: [keerthanap-portfolio.vercel.app](https://keerthanap-portfolio.vercel.app)
